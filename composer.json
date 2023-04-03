@@ -1,0 +1,23 @@
+{
+    "name": "magento/theme-luma_child",
+    "description": "Child theme for Luma Theme",
+    "type": "magento2-theme",
+    "version": "100.0.1",
+    "authors": [
+        {
+            "name": "Nilesh Dubey",
+            "email": "nileshdubeynd5101@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0",
+        "magento/theme-frontend-blank": "*",
+        "magento/framework": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
